@@ -1,0 +1,79 @@
+body {
+	font-family: 'Arial', sans-serif;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	background-image: linear-gradient(to right, #000428 0%, #004e92 51%, #000428 100%);
+}
+.btn {
+	border: none;
+	cursor: pointer;
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+}
+
+.btn {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+
+.modal {
+	border-radius: 20px;
+	position: fixed;
+	left: calc(50%-300px);
+	top: 50%;
+	z-index: 2;
+	display: none;
+}
+
+.modal-content {
+	top: 50%;
+	left:calc(50% - 220px);
+	min-width: 440px;
+	position: fixed;
+	background-color: rgb(160, 25, 25);
+	padding: 10px 40px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-image: radial-gradient(circle, #167d9f 0%, #ff0000c7 100%);
+	width: 600px;
+}
+
+.modal-h2 {
+	color: white;
+	margin-right: 25px;
+}
+
+.modal-content img {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.close {
+	display: none;
+}
+
+.open {
+	display: block;
+}
+.fixed {
+	position: fixed;
+}
